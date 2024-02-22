@@ -1,0 +1,18 @@
+.heropic
+{
+    height: 100px;
+}
+td, th
+{
+    border: 2px solid black;
+    padding: 15px;     
+}
+table
+{
+    border-collapse: collapse;
+}
+th
+{
+    background-color: gray;
+    font-size: 18px;
+}
