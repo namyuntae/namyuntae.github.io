@@ -1,13 +1,16 @@
-h1 {
-    font-size: 30pt;
-    color: black;
-  }
-  h2 {
-    font-size:30pt;
-    color: blue;
-  }
-  p {
-    color: black;
-    font-size: 20pt;
-    font-family: times new roman;
-  }
+h1 
+{
+  font-size: 30pt;
+  color: black;
+}
+h2 
+{
+  font-size:30pt;
+  color: blue;
+}
+p 
+{
+  color: black;
+  font-size: 20pt;
+  font-family: times new roman;
+}
