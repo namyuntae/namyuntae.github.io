@@ -12,5 +12,9 @@ p
 {
   color: black;
   font-size: 20pt;
-  font-family: times new roman;
+  font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+  background-color: 186,255,205;
 }
