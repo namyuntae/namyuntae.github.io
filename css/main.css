@@ -1,12 +1,12 @@
 h1 
 {
-  font-size: 30pt;
+  font-size: 40pt;
   color: black;
 }
 h2 
 {
   font-size:30pt;
-  color: blue;
+  color: black;
 }
 p 
 {
@@ -16,5 +16,5 @@ p
 }
 body
 {
-  background-color: rgb(186, 255, 205);
+  background-color: rgb(186,255,205)
 }
