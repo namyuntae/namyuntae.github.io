@@ -1,20 +1,47 @@
 h1 
 {
-  font-size: 50pt;
+  font-size: 25pt;
   color: black;
 }
 h2 
 {
-  font-size:40pt;
+  font-size: 20pt;
   color: black;
 }
 p 
 {
   color: black;
-  font-size: 20pt;
+  font-size: 12pt;
   font-family: 'Times New Roman', Times, serif;
 }
-body
+table
 {
-  background-color: rgb(186,255,205)
+  background-color: white;
+}
+a:hover
+{
+  color: rgb(255,87,87)
+}
+p.profile:hover
+{
+  color: rgb(77,100,255)
+}
+img.profile
+{
+  filter: grayscale(20%)
+}
+img.button
+{
+  height: 40px;
+  filter: drop-shadow(3px 3px 4px black)
+}
+div
+{
+  width: fit-content;
+}
+li.index
+{
+  margin: 1px;
+  background-color: rgb(186,255,205);
+  padding: 3px;
 }
