@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Search Page</title>
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Search Page</h1>
+        <form action="https://www.google.com/search" method="GET" target="_blank">
+            <fieldset id="toplevelset">
+                <div>
+                    <label for="searchbox">Search</label>
+                    <input type="text" name="q" id="searchbox">
+                </div>
+                <br>
+                <div>
+                    <label for="site">Select a Site</label>
+                    <select name="as_sitesearch" id="site">
+                        <option value="">--All Websites--</option>
+                        <option value="guitarcenter.com">Guitar Center</option>
+                        <option value="musicarts.com">Music&Arts</option>
+                        <option value="musiciansfriend.com">Musician's Friend</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="phrase">Select a Category</label>
+                    <select name="as_epq" id="phrase">
+                        <option value="">--All Categories--</option>
+                        <option value="guitar">Guitar</option>
+                        <option value="piano">Piano</option>
+                        <option value="mic">Mic</option>
+                        <option value="speaker">Speaker</option>
+                        <option value="amp">Amp</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="phrase">Select a Location</label>
+                    <select name="near" id="location">
+                        <option value="">--All Categories--</option>
+                        <option value="denver">Denver</option>
+                        <option value="colorado">Colorado</option>
+                        <option value="usa">United States</option>
+                    </select>
+                </div>
+                <br>
+                <fieldset>
+                    <div>
+                        <input type="checkbox" name="newwindow" value="1" id="checkwindow">
+                        <label for="checkwindow">Open with New Tab</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="vid" value="video" id="checkvid">
+                        <label for="checkvid">Limit Search for Videos</label>
+                    </div>
+                </fieldset>
+            </fieldset>
+            <br>
+            <input type="submit" value="Search">
+        </form>
+    </body>
