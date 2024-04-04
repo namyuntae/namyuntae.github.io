@@ -1,0 +1,48 @@
+:root
+{
+    --UNC-Blue: #013C65;
+    --UNC-Gold: #F6B000;
+    --UNC-Grey: #60697A;
+    --Antique-Gold: #837543;
+    --Honeycomb: #C7AC67;
+    --Butter: #F5E3B1;
+    --Ash: #666;
+    --Smoke: #999;
+    --Light-Grey: #EBEBEB;
+}
+body
+{
+    background-color: var(--UNC-Blue);
+}
+*
+{
+    color: var(--Light-Grey);
+    text-align: center;
+}
+h1
+{
+    font-size: calc(13pt + 4vw);
+}
+h2
+{
+    font-size: 22pt;
+}
+nav
+{
+    border: 6px var(--UNC-Gold) solid;
+}
+section
+{
+    border: 5px var(--Honeycomb) solid;
+    margin: 3px;
+    margin-top: 40px;
+}
+.date
+{
+    color: var(--Butter);
+}
+ul
+{
+    list-style: none;
+    padding-left: 0px;
+}
