@@ -18,14 +18,26 @@ body
 {
     color: var(--Light-Grey);
     text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 h1
 {
     font-size: 45pt;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 40px;
 }
 h2
 {
-    font-size: 22pt;
+    font-size: 24pt;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 nav
 {
