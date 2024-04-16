@@ -12,7 +12,7 @@ td, th
     border: 0.3vw solid black;
     padding: 1vw;
     font-family: "Comic Sans MS";   
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 table
 {
@@ -22,7 +22,7 @@ table
 th
 {
     background-color: skyblue;
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 th:hover
 {
