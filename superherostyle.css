@@ -1,6 +1,6 @@
-h1
+body>h1
 {
-    font-size: 40px;
+    font-size: 5vw;
     font-weight: bolder;
 }
 .heropic
@@ -9,10 +9,10 @@ h1
 }
 td, th
 {
-    border: 2px solid black;
-    padding: 7px;
+    border: 0.3vw solid black;
+    padding: 1vw;
     font-family: "Comic Sans MS";   
-    font-size: 2vw  
+    font-size: 2vw;
 }
 table
 {
