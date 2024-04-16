@@ -5,13 +5,14 @@ h1
 }
 .heropic
 {
-    height: 100px;
+    height: 13vw;
 }
 td, th
 {
     border: 2px solid black;
     padding: 15px;
-    font-family: "Comic Sans MS";     
+    font-family: "Comic Sans MS";   
+    font-size: 2.2vw  
 }
 table
 {
@@ -21,7 +22,7 @@ table
 th
 {
     background-color: skyblue;
-    font-size: 18px;
+    font-size: 2.2vw;
 }
 th:hover
 {
