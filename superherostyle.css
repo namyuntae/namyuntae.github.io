@@ -5,14 +5,14 @@ h1
 }
 .heropic
 {
-    height: 13vw;
+    height: 10vw;
 }
 td, th
 {
     border: 2px solid black;
     padding: 7px;
     font-family: "Comic Sans MS";   
-    font-size: 2.2vw  
+    font-size: 2vw  
 }
 table
 {
@@ -22,14 +22,14 @@ table
 th
 {
     background-color: skyblue;
-    font-size: 2.2vw;
+    font-size: 2vw;
 }
 th:hover
 {
-    color: coral;
+    color: rgb(236, 191, 174);
 }
 ul
 {
     text-align: left;
-    padding-left: 20px
+    padding-left: 3vw
 }
